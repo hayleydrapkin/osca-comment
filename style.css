@@ -431,4 +431,5 @@ input[type=time]::-webkit-clear-button {
   -o-appearance: none;
   -ms-appearance:none;
   appearance: none;
+  margin: -20px; 
 }
