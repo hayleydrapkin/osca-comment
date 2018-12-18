@@ -28,7 +28,7 @@ style="height:200px;width:200px;class:center;"></a></h1>
   <div id="menu">
     <ul>
       <li><a href="index.html" id="currentred">About</a></li>
-	    <li><a href="annoucements.html">Announcements</a></li>
+	    <li><a href="announcements.html">Announcements</a></li>
       <li><a href="calendar.html">Calendar</a></li>
       <li><a href="mealinfo.html">Meal Information</a></li>
       <li><a href="spreadsheetlinks.html">Workchart & Saved Plates</a></li>
@@ -37,16 +37,6 @@ style="height:200px;width:200px;class:center;"></a></h1>
   </div>
   
   <div id="content">
-    <div id="mini">
-      <h2 class="green">Announcements</h2>
-      
-      <div ng-controller="MainController">
-	
-	<singlelist mylist="todo"></singlelist>
-	<input ng-model="addToDo">
-	<button ng-click="addItem(todo.list, addToDo)">Update</button>
-	<br>
-      </div>
     </div>
     <!-- Modules -->
     <script type="text/javascript" src="js/app.js"></script>
